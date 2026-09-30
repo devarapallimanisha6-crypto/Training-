@@ -1,0 +1,36 @@
+image attribute:
+     1 src
+        >absolute path(browser image path)
+        >relative path(download image path)
+     2 apllication
+     3 width
+     4 height
+     5 id
+     6 style
+Attributes : 
+    additional info given to the tag
+    >attributes are always in static(opening) tag
+    >always in key and value
+    ex: <h1>style="" align="" </h1>
+git:
+    >git --version
+    >git config --list
+    >git config set --g user.name "Manisha"
+    >git config set --g user.email "--------"
+    >git init: it create a new folder in git
+    >git add : it adds the file to that folder
+    >git commit -m "Image with different path examples"
+unpaid tags/self closing tags:
+    >any tag having only opening tag is called unpaid tags
+    ex:<br>,<img>,<hr>,<color>,...ext
+FORMS:
+----------
+    form tags :
+    <form></form> -->
+    <field sheet> --> form border
+    <legend> --> used to describe from title
+    <label> -->used to provide a lable to the input boxes
+    <input> --> to select the type of input
+    <select> --> 
+    <text> -->flexible fixed boxes
+ 

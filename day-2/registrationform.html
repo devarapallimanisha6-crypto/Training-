@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="tel" name="phone">
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+        <label>Course:</label>
+        <select name="course">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <h3>Registration Steps</h3>
+
+        <!-- Ordered List -->
+        <ol>
+            <li>Enter personal details</li>
+            <li>Enter educational details</li>
+            <li>Submit the registration form</li>
+        </ol>
+
+        <h3>Important Details</h3>
+
+        <!-- Description List -->
+        <dl>
+            <dt>Name</dt>
+            <dd>Enter your full name</dd>
+
+            <dt>Email</dt>
+            <dd>Enter a valid email address</dd>
+
+            <dt>Password</dt>
+            <dd>Use a strong password</dd>
+
+            <dt>Phone</dt>
+            <dd>Enter your 10-digit mobile number</dd>
+        </dl>
+
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
